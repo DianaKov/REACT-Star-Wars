@@ -1,0 +1,15 @@
+body {
+  font-family: 'Star Jedi', sans-serif;
+    background-image: url(../img/images/espacio.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: row;
+    width:90%;
+    margin: auto;
+}

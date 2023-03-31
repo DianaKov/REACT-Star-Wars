@@ -1,0 +1,37 @@
+.card__link{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    color:rgb(17, 19, 19);
+    line-height: 2px;
+    background: url('../img/images/1642653859_27-abrakadabra-fun-p-rvanie-kraya-vektor-61.png') round;
+    opacity: 0.8;
+    height: 300px;
+}
+
+.card__link:hover{
+    animation: pulse 1s ease-in-out infinite;
+    z-index: 2;
+    opacity: 1;
+}
+
+.card__link:hover .card__img{
+  transform: scale(2);
+  margin-top: 20%;
+}
+
+.card__link:hover .card__info{
+  visibility: hidden;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
